@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pencarian Kelulusan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="Logo Sekolah" class="school-logo" />
+      <h1>Pengumuman Kelulusan</h1>
+      <h2 class="school-name">MTs Islamiyah Kebomlati</h2>
+
+      <form id="searchForm">
+        <input type="text" id="nisn" placeholder="Masukkan NISN" required />
+        <button type="submit">Cari</button>
+      </form>
+    </div>
+
+    <script>
+      document
+        .getElementById("searchForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const nisn = document.getElementById("nisn").value;
+          localStorage.setItem("searchedNISN", nisn);
+          window.location.href = "result.html";
+        });
+    </script>
+  </body>
+</html>
