@@ -409,7 +409,7 @@ const database = [
     catatan: "",
   },
   {
-    nisn: "0104058431",
+    nisn: "1111111111",
     nama: "ZAHROTUN NURROKHIMA",
     nilai: "93",
     ket: "LULUS",
