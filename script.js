@@ -5,7 +5,7 @@ const database = [
     nama: "ABELIYA INDAH SAFITRI",
     nilai: "86.93",
     ket: "LULUS",
-    catatan: "hvjh",
+    catatan: "",
   },
   {
     nisn: "0085016194",
