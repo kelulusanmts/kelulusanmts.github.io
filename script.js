@@ -1,4 +1,5 @@
 // --- 1. Data embedded directly in JS ---
+
 const database = [
   {
     nisn: "0107526372",
@@ -183,14 +184,14 @@ const database = [
     catatan: "",
   },
   {
-    nisn: "0105886416",
+    nisn: "0081598646",
     nama: "SITI NUR JANNAH",
     nilai: "86.44",
     ket: "LULUS",
     catatan: "",
   },
   {
-    nisn: "0086930452",
+    nisn: "0105886416",
     nama: "SOFAHTUL MARWAH AZZAHRA",
     nilai: "85.44",
     ket: "LULUS",
