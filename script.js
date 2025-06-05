@@ -33,7 +33,7 @@ const database = [
     nisn: "0098952410",
     nama: "AHMAT RISKI",
     nilai: "84.41",
-    ket: "LULUS",
+    ket: "TIDAK LULUS",
     catatan: "",
   },
   {
@@ -472,7 +472,9 @@ function highlightKet(ket) {
   if (lower.includes("belum lulus")) {
     return `<span class="warning">⚠️ ${ket}</span>`;
   }
-
+  if (lower.includes("tidak lulus")) {
+    return `<span class="warning">⚠️ ${ket}</span>`;
+  }
   if (lower === "lulus") {
     return `<span class="success">✔️ ${ket}</span>`;
   }
